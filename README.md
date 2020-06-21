@@ -7,5 +7,5 @@ This application allows users to create, view, edit, and delete todo tasks. All 
 
 As seen on the left, the design is visually appealing and accessible on a larger screen. The image on the right shows the design on a Pixel 2 device.
 
-![Page Screenshot](<kbd><img>https://i.ibb.co/2dmLbqX/taskspacereact.png</img></kbd>)
-![Page Screenshot](https://i.ibb.co/RPFMmWZ/taskspacereactmobile.png)
+<kbd><img>https://i.ibb.co/2dmLbqX/taskspacereact.png
+<kbd><img>(https://i.ibb.co/RPFMmWZ/taskspacereactmobile.png</img></kbd>
