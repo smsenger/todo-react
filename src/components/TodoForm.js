@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button';
 import './TodoForm.css';
 import '../App.css'
+import { connect } from 'react-redux';
+import { addTodo } from '../redux/actions/todoActions'; 
 
-export default class TodoForm extends Component {
+class TodoForm extends Component {
   constructor() {
     super();
     this.state = {
@@ -50,3 +51,12 @@ export default class TodoForm extends Component {
     );
   }
 }
+
+const mapDispatchToProps = {
+  onNewTask: addTodo
+}
+
+export default connect(
+  null,
+  mapDispatchToProps,
+)(TodoForm)
